@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="default_zipcode_pfp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="16.634007"
+     inkscape:cx="28.826488"
+     inkscape:cy="31.892496"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1072"
+     inkscape:window-y="1096"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ears"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#663500;fill-opacity:1;stroke:#000000;stroke-width:1.10277;stroke-dasharray:none;stroke-opacity:1"
+       d="M 53.306224,1.4798003 C 48.393879,-0.89055432 40.043146,8.9104608 39.17593,17.628401 c 0.495792,7.183423 8.617568,-1.033888 12.331568,-4.605752 2.034128,-1.956283 1.976858,-7.2742182 1.798726,-11.5428487 z"
+       id="path6"
+       sodipodi:nodetypes="ccsc"
+       inkscape:label="RightEarOuter" />
+    <path
+       style="fill:#663500;fill-opacity:1;stroke:#000000;stroke-width:1.10277;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10.993937,1.4278985 C 15.906282,-0.94245609 24.257015,8.858559 25.124231,17.5765 24.628439,24.759923 16.506663,16.542612 12.792663,12.970748 10.758535,11.014465 10.815805,5.696529 10.993937,1.4278985 Z"
+       id="path6-1"
+       sodipodi:nodetypes="ccsc"
+       inkscape:label="LeftEarOuter" />
+    <path
+       style="fill:#ffa847;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.765763,19.237698 c -0.966227,0.592074 -2.594763,-2.580885 -2.224358,-3.306479 2.437862,-4.775581 5.02667,-8.4758277 8.656964,-11.5426191 1.923222,-1.6246951 1.86516,6.5058371 1.803534,7.3343721 -0.06931,0.931891 -5.46745,5.818156 -8.23614,7.514726 z"
+       id="path7"
+       sodipodi:nodetypes="sssss"
+       inkscape:label="RightEarInner" />
+    <path
+       style="fill:#ffa847;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.403794,18.993052 c 0.966227,0.592074 2.594763,-2.580885 2.224358,-3.306479 -2.437862,-4.775581 -5.02667,-8.4758271 -8.656964,-11.5426185 -1.923222,-1.6246951 -1.86516,6.5058365 -1.803534,7.3343715 0.06931,0.931891 5.46745,5.818156 8.23614,7.514726 z"
+       id="path7-2"
+       sodipodi:nodetypes="sssss"
+       inkscape:label="LeftEarInner" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Head">
+    <ellipse
+       style="fill:#663500;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="32.059998"
+       cy="34.560001"
+       rx="12"
+       ry="24"
+       inkscape:label="RooHead" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Face">
+    <g
+       id="g8"
+       inkscape:label="Eyes">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="path8"
+         cx="28.15"
+         cy="25.15"
+         r="1"
+         inkscape:label="LeftEye" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="path8-6"
+         cx="36.150002"
+         cy="25.15"
+         r="1"
+         inkscape:label="RightEye" />
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       d="m 27.774427,36.445524 c -1.766348,2.269985 1.053964,6.650118 3.667186,6.85343 2.965873,0.230748 5.545827,-4.141519 3.667189,-6.793315 -0.745011,-1.051621 -6.62949,-0.965983 -7.334375,-0.06012 z"
+       id="path9"
+       sodipodi:nodetypes="ssss" />
+  </g>
+</svg>
