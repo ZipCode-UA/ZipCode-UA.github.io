@@ -1,0 +1,154 @@
+:root {
+    --primary-blue: #041E42;
+    --gold: #A89968;
+    --cream: #FFF7E9;
+    --secondary-blue: #004C9D;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--primary-blue);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-blue);
+    color: var(--cream);
+    padding: 1rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: var(--cream);
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--gold);
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer {
+    background-color: var(--primary-blue);
+    color: var(--cream);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-links img {
+    width: 50px;
+    margin: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-roo {
+    height: 87.5px;
+    margin-right: 1rem;
+}
+
+.header-text {
+    color: var(--gold);
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.roster-card {
+    background-color: var(--primary-blue);
+    border: 4px solid var(--gold);
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    width: 200px;
+    color: var(--cream);
+}
+
+.roster-card img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid var(--gold);
+    border-radius: 10px;
+    background-color: var(--cream);
+    padding: 5px;
+}
+
+.roster-card .name {
+    color: var(--gold);
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.roster-card .title {
+    color: var(--cream);
+    margin-bottom: 1em;
+}
+
+.roster-card button {
+    background-color: var(--primary-blue);
+    color: var(--cream);
+    border: solid 2px var(--cream);
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.roster-card button:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background-color: var(--secondary-blue);
+}
+
+#profile-container .roster-card {
+    display: grid;
+    grid-template-areas:
+        "pfp name"
+        "title title"
+        "major major";
+    grid-template-columns: auto 1fr;
+    text-align: center;
+}
+
+#profile-container .pfp {
+    grid-area: pfp;
+}
+
+#profile-container .name {
+    grid-area: name;
+}
+
+#profile-container .title {
+    grid-area: title;
+}
+
+#profile-container .major {
+    grid-area: major;
+}
+
+
