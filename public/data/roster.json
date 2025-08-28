@@ -88,5 +88,14 @@
         "title": "Member",
         "pfp": "",
         "uaNetId": "bdd38"
+    },
+    {
+        "name": "Kollin Brown",
+        "major": "Computer Engineering",
+        "graduationYear": 2026,
+        "isOfficer": false,
+        "title": "Member",
+        "pfp": "",
+        "uaNetId": "ksb91"
     }
 ]
