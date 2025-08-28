@@ -1,92 +1,92 @@
 [
     {
-        "name": "John Doe",
+        "name": "Joe Waldron",
         "major": "Computer Science",
-        "graduationYear": 2025,
+        "graduationYear": 2026,
         "isOfficer": true,
         "title": "President",
         "pfp": "",
-        "uaNetId": "jod1"
+        "uaNetId": "jaw368"
     },
     {
-        "name": "Jane Smith",
-        "major": "Computer Information Systems",
+        "name": "Riley Spires",
+        "major": "Computer Science",
         "graduationYear": 2026,
         "isOfficer": true,
         "title": "Vice President",
         "pfp": "",
-        "uaNetId": "jes2"
+        "uaNetId": "rjs243"
     },
     {
-        "name": "Peter Jones",
+        "name": "Brooklyn Rodgers",
         "major": "Computer Science",
-        "graduationYear": 2025,
+        "graduationYear": 2026,
         "isOfficer": true,
         "title": "Treasurer",
         "pfp": "",
-        "uaNetId": "pjj3"
+        "uaNetId": "bbr12"
     },
     {
-        "name": "Alice Brown",
+        "name": "Lucas Ergh",
         "major": "Computer Engineering",
-        "graduationYear": 2027,
-        "isOfficer": true,
-        "title": "Project Manager",
-        "pfp": "",
-        "uaNetId": "alb4"
-    },
-    {
-        "name": "Bob White",
-        "major": "Cybersecurity",
         "graduationYear": 2026,
         "isOfficer": true,
         "title": "Project Manager",
         "pfp": "",
-        "uaNetId": "bow5"
+        "uaNetId": "le45"
     },
     {
-        "name": "Charlie Green",
-        "major": "Data Science",
-        "graduationYear": 2028,
+        "name": "Nathan Manson",
+        "major": "Computer Science",
+        "graduationYear": 2026,
+        "isOfficer": true,
+        "title": "Project Manager",
+        "pfp": "",
+        "uaNetId": "nam149"
+    },
+    {
+        "name": "Ahmed Kheiri",
+        "major": "Computer Science",
+        "graduationYear": 2026,
         "isOfficer": true,
         "title": "Outreach Coordinator",
         "pfp": "",
-        "uaNetId": "chg6"
+        "uaNetId": "ak535"
     },
     {
-        "name": "Diana Prince",
+        "name": "Jack Thorp",
         "major": "Computer Science",
-        "graduationYear": 2025,
+        "graduationYear": 2026,
         "isOfficer": true,
         "title": "Tech Lead",
         "pfp": "",
-        "uaNetId": "dip7"
+        "uaNetId": "jjt87"
     },
     {
-        "name": "Eve Black",
+        "name": "Drew Corliss",
         "major": "Computer Science",
-        "graduationYear": 2027,
-        "isOfficer": false,
-        "title": "Member",
-        "pfp": "",
-        "uaNetId": "evb8"
-    },
-    {
-        "name": "Frank Red",
-        "major": "Computer Information Systems",
         "graduationYear": 2026,
         "isOfficer": false,
         "title": "Member",
         "pfp": "",
-        "uaNetId": "frr9"
+        "uaNetId": "dmc191"
     },
     {
-        "name": "Grace Blue",
-        "major": "Computer Engineering",
-        "graduationYear": 2028,
+        "name": "William Aey",
+        "major": "Computer Science",
+        "graduationYear": 2026,
         "isOfficer": false,
         "title": "Member",
         "pfp": "",
-        "uaNetId": "grb10"
+        "uaNetId": "wba6"
+    },
+    {
+        "name": "Bruno Defreitas",
+        "major": "Computer Science",
+        "graduationYear": 2026,
+        "isOfficer": false,
+        "title": "Member",
+        "pfp": "",
+        "uaNetId": "bdd38"
     }
 ]
