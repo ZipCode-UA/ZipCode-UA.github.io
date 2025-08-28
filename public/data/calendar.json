@@ -1,10 +1,6 @@
 [
     {
-        "date": "2025-09-01",
+        "date": "2025-08-28",
         "event": "First Meeting"
-    },
-    {
-        "date": "2025-09-15",
-        "event": "Workshop: Intro to Git"
     }
 ]
