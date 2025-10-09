@@ -17,3 +17,7 @@ Club members are allowed (and encouraged!) to open pull requests to manage their
 ```
 
 If you provide a path to a profile picture in the `pfp` key, then it is expected that your pull request will also add a club appropriate profile picture at that path. Profile pictures that are not in the `public/assets/pfp/` directory will result in a denial of the pull request for the sake of keeping the file structure neat.
+
+## Local Testing
+
+To test the website locally on your machine, you can serve the repository with a Python http server by using the command `python -m http.server 5500` and navigating to `localhost:5500` in your internet browser.
