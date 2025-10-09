@@ -1,8 +1,19 @@
 :root {
+    /* UAkron Colors */
     --primary-blue: #041E42;
     --gold: #A89968;
     --cream: #FFF7E9;
     --secondary-blue: #004C9D;
+    /* Shadows */
+    --card-shadow:
+        inset 0 2px 4px #ffffff30, /* Top Shading */
+        0 2px 4px #00000030, /* Bottom Shading */
+        0 4px 6px #00000015; /* Easing Extended Bottom Shading */
+    --bottom-shadow:
+        0 2px 4px #00000030,
+        0 4px 6px #00000015;
+    --top-shadow:
+        inset 0 2px 4px #ffffff30;
 }
 
 body {
@@ -16,6 +27,7 @@ header {
     background-color: var(--primary-blue);
     color: var(--cream);
     padding: 1rem 1rem;
+    box-shadow: var(--bottom-shadow);
 }
 
 header h1 {
@@ -49,6 +61,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    box-shadow: var(--top-shadow)
 }
 
 .contact-links img {
@@ -88,6 +101,7 @@ footer {
     margin-bottom: 1em;
     width: 200px;
     color: var(--cream);
+    box-shadow: var(--card-shadow);
 }
 
 .roster-card img {
