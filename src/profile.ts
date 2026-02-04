@@ -40,16 +40,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Retrieve member profile
     const member = rosterData.find((m: ZipCoder) => m.uaNetId === memberId);
-    if (member) {
-        profileContainer.innerHTML = `
-            <div class="roster-card">
-                <img src="${member.pfp || '/public/assets/defaults/default_zipcode_pfp.svg'}" alt="Profile Picture" class="pfp">
-                <div class="name">${member.name}</div>
-                <div class="title">${member.title || 'Member'}</div>
-                <div class="major">Major: ${member.major}</div>
-                <p>Graduation Year: ${member.graduationYear}</p>
-            </div>
-        `;
+    if (!member) {
+        window.location.replace(NotFoundRoute);
+        return;
     }
 
+    // Insert profile contents
+    profileContainer.innerHTML = `
+        <div class="roster-card">
+            <img src="${member.pfp || '/public/assets/defaults/default_zipcode_pfp.svg'}" alt="Profile Picture" class="pfp">
+            <div class="name">${member.name}</div>
+            <div class="title">${member.title || 'Member'}</div>
+            <div class="major">Major: ${member.major}</div>
+            <p>Graduation Year: ${member.graduationYear}</p>
+        </div>
+    `;
 });
