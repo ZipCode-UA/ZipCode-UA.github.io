@@ -9,10 +9,11 @@ type ZipCoder = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+
+    // Extract member ID from URL
     const urlParams = new URLSearchParams(window.location.search);
     const memberId = urlParams.get('id');
-
-    if (!memberId) window.location.replace('/404.html')
+    if (!memberId) window.location.replace('/404.html');
 
     fetch('/public/data/roster.json')
         .then(response => response.json())
