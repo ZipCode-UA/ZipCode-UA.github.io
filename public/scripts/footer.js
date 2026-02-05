@@ -1,7 +1,7 @@
 /*
- * footer.js
+ * @file footer.js
  *
- * Inserts the current the year into the footer.
+ * @brief Inserts the current the year into the footer.
  *
  * This script currently expects each footer to contain
  * a child element with an id of "footerYear"
