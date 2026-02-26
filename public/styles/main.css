@@ -146,6 +146,10 @@ footer {
     border: 1px solid #ccc;
 }
 
+.icon-link {
+    font-size: 0;
+}
+
 #profile-container .roster-card {
     display: grid;
     grid-template-areas:
