@@ -1,19 +1,43 @@
 "use strict";
-fetch('/public/data/leaderboards.json')
-    .then(response => response.json())
-    .then((data) => {
-    const leaderboardContainer = document.getElementById('leaderboards-container');
-    leaderboard = "<table boarder='1'><tr><th>Date</th><th>Game</th><th>Winner</th></table>"
-    //if (calendarContainer) {
-    //    data.forEach(item => {
-    //        const eventDiv = document.createElement('div');
-    //        eventDiv.innerHTML = `
-    //                <h3>${item.date}</h3>
-    //                <p>${item.game}</p>
-    //                <p>${item.winner}</p>
-    //            `;
-    //        calendarContainer.appendChild(eventDiv);
-    //    });
-    //}
-    leaderboardContainer.innerHTML = leaderboard;
-});
+
+async function loadLeaderboards() {
+    const response = await fetch("/public/data/leaderboards.json");
+    const data = await response.json();
+
+    const container = document.getElementById("leaderboards-container");
+
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const tbody = document.createElement("tbody");
+
+    table.setAttribute("border", "1");
+
+    const headers = ["Game", "Winner", "Date"];
+    const headerRow = document.createElement("tr");
+
+    headers.forEach(text => {
+        const th = document.createElement("th");
+        th.textContent = text;
+        headerRow.appendChild(th);
+    });
+
+    thead.appendChild(headerRow);
+
+    data.forEach(({ game, winner, date }) => {
+        const row = document.createElement("tr");
+
+        [game, winner, date].forEach(value => {
+            const td = document.createElement("td");
+            td.textContent = value;
+            row.appendChild(td);
+        });
+
+        tbody.appendChild(row);
+    });
+
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    container.appendChild(table);
+}
+
+loadLeaderboards();
