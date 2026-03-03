@@ -97,5 +97,14 @@
         "title": "Member",
         "pfp": "",
         "uaNetId": "ksb91"
+    },
+    {
+        "name": "Nick Shingledecker",
+        "major": "Computer Information Systems - Software Development",
+        "graduationYear": 2027,
+        "isOfficer": false,
+        "title": "Member",
+        "pfp": "/public/assets/pfp/ns244.jpeg",
+        "uaNetId": "ns244"
     }
 ]
