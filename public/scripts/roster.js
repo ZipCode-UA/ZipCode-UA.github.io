@@ -23,6 +23,7 @@ function createRosterCard(member) {
     card.classList.add('roster-card');
     const pfp = document.createElement('img');
     pfp.src = member.pfp || '/public/assets/defaults/default_zipcode_pfp.svg';
+    pfp.alt = `${member.name} profile picture`;
     card.appendChild(pfp);
     const name = document.createElement('div');
     name.classList.add('name');
