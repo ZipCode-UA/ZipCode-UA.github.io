@@ -106,5 +106,14 @@
         "title": "Member",
         "pfp": "/public/assets/pfp/ns244.jpeg",
         "uaNetId": "ns244"
+    },
+    {
+        "name": "Aidan Davis",
+        "major": "Computer Science",
+        "graduationYear": 2027,
+        "isOfficer": false,
+        "title": "Member",
+        "pfp": "",
+        "uaNetId": "add474"
     }
 ]
