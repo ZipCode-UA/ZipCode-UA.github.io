@@ -106,5 +106,14 @@
         "title": "Member",
         "pfp": "/public/assets/pfp/ns244.jpeg",
         "uaNetId": "ns244"
+    },
+    {
+        "name": "Quentin Luckring",
+        "major": "Computer Information Systems - Cyber Security",
+        "graduationYear": 2029,
+        "isOfficer": false,
+        "title": "Member",
+        "pfp": "",
+        "uaNetId": "qdl1"
     }
 ]
